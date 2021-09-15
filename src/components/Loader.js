@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import Notes from './Products.js';
-import {screen} from "@testing-library/react";
 
 const Loader = () => {
     const [notes, setNotes] = useState([]);
