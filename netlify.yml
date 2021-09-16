@@ -1,0 +1,7 @@
+Settings:
+  ID: relaxed-cori-f53dc3
+
+headers:
+  - for: /*
+    values:
+      Access-Control-Allow-Origin: *
