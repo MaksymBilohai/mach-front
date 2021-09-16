@@ -18,7 +18,7 @@ const Loader = () => {
         console.log(encodedUserRequest);
         var headers = {}
         headers['machaton-personalization'] = encodedUserRequest;
-        const server = 'https://max-test-machaton.free.beeceptor.com/mach/algolia';
+        const server = 'https://glacial-caverns-66223.herokuapp.com/mach/algolia';
         fetch(server, { method: 'GET', headers: headers})
             .then((response) => response.json())
             .then((data) => {
